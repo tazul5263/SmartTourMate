@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/citiesMenuId"
+            android:title="Cities"
+            android:icon="@drawable/ic_card_travel_black_24dp"
+            />
+
+
+        <item
+            android:id="@+id/myTripMenuId"
+            android:title="My Trips"
+            android:icon="@drawable/ic_card_travel_black_24dp"
+            />
+
+        <item
+            android:id="@+id/restaurentsMenuId"
+            android:title="Restaurents/Hotels"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            />
+
+
+
+        <item
+            android:id="@+id/myLocationMenuId"
+            android:title="My Location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            />
+        <item
+            android:id="@+id/utilitiesMenuId"
+            android:title="Utilities"
+            android:icon="@drawable/ic_forward_black_24dp"
+            />
+
+
+
+
+    </group>
+
+
+    <item>
+
+        <menu>
+
+
+            <item
+                android:id="@+id/signOutMenuId"
+                android:title="Sign Out"
+
+                />
+
+
+            <item
+                android:id="@+id/settingsMenuId"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+
+
+            <item
+                android:id="@+id/aboutUsMenuId"
+                android:title="About Us"
+                android:icon="@drawable/ic_people_black_24dp"
+                />
+
+
+
+        </menu>
+
+
+
+
+
+
+    </item>
+
+
+
+
+</menu>
